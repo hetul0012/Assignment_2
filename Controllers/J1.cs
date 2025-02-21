@@ -21,15 +21,15 @@ namespace Assignment_2.Controllers
             // <param name="deliveries">The number of packages the robot successfully delivers.</param>
             // <returns>he final score based on the deliveries and collisions</returns>
             // <example>
-            //   GET : localhost:7151/api/J1/DelivEDroid?Collisions=2&Deliveries=5
+            //   POST : localhost:7151/api/J1/DelivEDroid?Collisions=2&Deliveries=5
             // </example>
             //<result>730</result>
             // <example>
-            //   GET : localhost:7151/api/J1/DelivEDroid?Collisions=10&Deliveries=0
+            //   POST : localhost:7151/api/J1/DelivEDroid?Collisions=10&Deliveries=0
             // </example>
             //<result>-100</result>
             // <example>
-            //   GET : localhost:7151/api/J1/DelivEDroid?Collisions=3&Deliveries=2
+            //   POST : localhost:7151/api/J1/DelivEDroid?Collisions=3&Deliveries=2
             // </example>
             //<result>70</result>
 
